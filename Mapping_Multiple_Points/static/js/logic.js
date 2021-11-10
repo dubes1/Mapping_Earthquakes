@@ -4,9 +4,9 @@ console.log("working");
 // Create the map object with a center and zoom level.
 let map = L.map("mapid", {
     center: [
-      40.7, -94.5
+      [36.1733, -120.1794]
     ],
-    zoom: 4
+    zoom: 7
   });
  // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
